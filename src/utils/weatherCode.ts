@@ -27,6 +27,7 @@ export function getWeatherCodeDescription(code: number): string {
     86: 'Pancadas de neve fortes',
     95: 'Tempestade leve ou moderada',
     96: 'Tempestade com granizo leve',
+    97: 'Tempestade forte com trovoadas',
     99: 'Tempestade com granizo forte',
   };
 
