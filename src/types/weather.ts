@@ -6,6 +6,16 @@ export interface GeocodingResult {
   timezone: string;
 }
 
+export interface GeocodingApiResponse {
+  results?: Array<{
+    name?: string;
+    latitude?: number;
+    longitude?: number;
+    country_code?: string;
+    timezone?: string;
+  }>;
+}
+
 export interface ForecastCurrent {
   temperature_2m: number;
   relative_humidity_2m: number;
@@ -30,9 +40,14 @@ export interface ForecastUnits {
   weather_code: string;
 }
 
-export interface WeatherResponse {
+export interface WeatherResult {
   current: ForecastCurrent;
   current_units: ForecastUnits;
+}
+
+export interface WeatherApiResponse {
+  current?: Partial<ForecastCurrent>;
+  current_units?: Partial<ForecastUnits>;
 }
 
 export interface CombinedWeatherData {
