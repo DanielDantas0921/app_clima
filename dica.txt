@@ -7,3 +7,8 @@ com base no prd.md eu quero que crie um arquivo tasks.md em que você vai dividi
 prompt para executar as tasks (fase)
 Com base no arquivo task.md faça a implementação da fase 1 do projeto.
 Para cada task, verifique os critérios de aprovação antes de ir para a próxima task. Ao terminar e aprovar uma task, marque os itens feitos com [x]
+
+fazer ci/cd com o GitHub actions
+
+Eu quero fazer o deploy desse projeto no GitHub Pages. Para fazer isso preciso criar um arquivo de CI/CD para que toda vez que alguma mudança for para a branch main, eu disparar o GitHub Actions para gerar os arquivos(artefatos) para o GitHub Pages. Faça a modificações no projeto e crie o arquivo do workflow do GitHub Actions. A branch que está meu código é a master.
+Url do respositório: https://github.com/DanielDantas0921/app_clima
