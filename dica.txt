@@ -1,0 +1,9 @@
+quando for gerar o prd dizer se o agente tiver alguma dúvida que não tiver uma resposta clara, ele perguntar a você antes de gerar o prd
+
+prompt de dividir tasks
+
+com base no prd.md eu quero que crie um arquivo tasks.md em que você vai dividir a implementação do prd em tarefas menores. Cada tarefa deve ter um critério de aprovação claro, para sabermos que ela foi implementada corretamente. No arquivo tasks.md coloque [] em cada task para que possamos marcar ela como feita após feita. No arquivo tasks.md faça referência ao prd.md para que não precisemos duplicar informações demais nos documentos. As tasks serão feitas de forma progressiva (uma a uma) por agentes de IA
+
+prompt para executar as tasks (fase)
+Com base no arquivo task.md faça a implementação da fase 1 do projeto.
+Para cada task, verifique os critérios de aprovação antes de ir para a próxima task. Ao terminar e aprovar uma task, marque os itens feitos com [x]
